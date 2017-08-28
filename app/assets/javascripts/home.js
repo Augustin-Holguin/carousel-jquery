@@ -9,5 +9,9 @@ $(function() {
 */
 
 $(function() {
-  $('img').show();
+  $('#next').on('click', function(){
+    $('#img1').attr('src', 'http://xczech.com/wp-content/uploads/2015/07/emili-ratajkovski.jpg');
+  })
 });
+
+if $('img')
